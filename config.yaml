@@ -1,0 +1,57 @@
+# RPA Lab Configuration
+
+# Application Settings
+app:
+  name: "RPA Lab"
+  version: "1.0.0"
+  language: "pt-BR"
+  theme: "dark"  # dark or light
+
+# Database
+database:
+  type: "sqlite"
+  path: "data/rpa.db"
+
+# Recording Settings
+recording:
+  default_delay: 0.5  # seconds between actions
+  capture_screenshots: true
+  screenshot_quality: 85
+  screenshot_path: "data/screenshots"
+
+# Execution Settings
+execution:
+  default_speed: "normal"  # normal, fast, turbo, instant
+  speeds:
+    normal: 1.0
+    fast: 0.5
+    turbo: 0.1
+    instant: 0.0
+  retry_on_failure: 3
+  retry_delay: 1.0
+
+# Image Recognition Settings
+image_recognition:
+  default_confidence: 0.9  # 0.0 to 1.0
+  grayscale: true
+  search_area: "full_screen"  # full_screen or custom region
+
+# Scheduler Settings
+scheduler:
+  check_interval: 60  # seconds
+  max_concurrent_tasks: 1
+  log_retention_days: 30
+
+# UI Settings
+ui:
+  window_width: 1200
+  window_height: 800
+  sidebar_width: 250
+  show_notifications: true
+
+# Logging
+logging:
+  level: "INFO"
+  path: "logs"
+  max_file_size: "10 MB"
+  retention: "7 days"

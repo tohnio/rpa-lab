@@ -1,0 +1,5 @@
+# Instalar dependências
+pip install -r requirements.txt
+
+# Executar aplicação
+python main.py

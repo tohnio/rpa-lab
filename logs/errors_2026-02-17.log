@@ -1,0 +1,14 @@
+2026-02-17 14:10:00 | ERROR    | src.core.image_recognition:find_image:53 - Failed to load template image: D:\Docker\lab\rpa-lab\img
+
+2026-02-17 14:10:00 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img
+
+2026-02-17 14:10:03 | ERROR    | src.core.image_recognition:find_image:53 - Failed to load template image: D:\Docker\lab\rpa-lab\img
+
+2026-02-17 14:10:03 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img
+
+2026-02-17 14:28:07 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+
+2026-02-17 14:32:02 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+
+2026-02-17 14:34:15 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+

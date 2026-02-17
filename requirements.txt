@@ -1,0 +1,26 @@
+# Core RPA
+pyautogui
+pynput
+opencv-python
+Pillow
+mouse
+keyboard
+
+# GUI
+customtkinter
+
+# Database
+sqlalchemy
+
+# Scheduling
+apscheduler
+
+# Utils
+pyyaml
+python-dotenv
+loguru
+pydantic
+
+# Optional: For advanced features
+pyperclip
+psutil

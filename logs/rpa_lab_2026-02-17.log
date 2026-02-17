@@ -1,0 +1,496 @@
+2026-02-17 13:49:14 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:49:14 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:52:01 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:52:01 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:53:30 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:53:30 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:53:31 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 13:53:31 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 13:53:31 | INFO     | src.gui.app:__init__:51 - RPA Lab v1.0.0 initialized
+2026-02-17 13:54:04 | INFO     | src.gui.app:on_closing:59 - Application closing
+2026-02-17 13:54:04 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 13:54:55 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:54:55 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:54:56 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 13:54:56 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 13:54:56 | INFO     | src.gui.app:__init__:51 - RPA Lab v1.0.0 initialized
+2026-02-17 13:55:12 | INFO     | src.gui.app:on_closing:59 - Application closing
+2026-02-17 13:55:12 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 13:56:58 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:56:58 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:56:58 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 13:56:58 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 13:56:58 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 13:57:25 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 13:57:25 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 13:58:18 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 13:58:18 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 13:58:19 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 13:58:19 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 13:58:19 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 13:58:40 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 13:58:40 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:01:02 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:01:02 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:01:03 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 14:01:03 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:01:03 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:01:36 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:01:36 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:03:51 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:03:51 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:03:52 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 14:03:52 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:03:52 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:04:11 | INFO     | src.database.db_manager:create_task:95 - Created task: tes (ID: 1)
+2026-02-17 14:04:22 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:04:22 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:05:45 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:05:45 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:05:46 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 14:05:46 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:05:46 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:09:21 | INFO     | src.database.db_manager:update_task:135 - Updated task: tes (ID: 1)
+2026-02-17 14:09:30 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:09:33 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:09:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:09:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:09:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:09:43 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:09:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:09:44 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 6 actions recorded
+2026-02-17 14:09:55 | INFO     | src.database.db_manager:update_task:135 - Updated task: tes (ID: 1)
+2026-02-17 14:10:00 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:10:00 | INFO     | src.core.player:play_task:110 - Starting task: tes (1 actions)
+2026-02-17 14:10:00 | ERROR    | src.core.image_recognition:find_image:53 - Failed to load template image: D:\Docker\lab\rpa-lab\img
+2026-02-17 14:10:00 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img
+2026-02-17 14:10:00 | INFO     | src.database.db_manager:update_task:135 - Updated task: tes (ID: 1)
+2026-02-17 14:10:00 | INFO     | src.core.player:play_task:189 - Task completed: tes (success=False)
+2026-02-17 14:10:03 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:10:03 | INFO     | src.core.player:play_task:110 - Starting task: tes (1 actions)
+2026-02-17 14:10:03 | ERROR    | src.core.image_recognition:find_image:53 - Failed to load template image: D:\Docker\lab\rpa-lab\img
+2026-02-17 14:10:03 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img
+2026-02-17 14:10:03 | INFO     | src.database.db_manager:update_task:135 - Updated task: tes (ID: 1)
+2026-02-17 14:10:03 | INFO     | src.core.player:play_task:189 - Task completed: tes (success=False)
+2026-02-17 14:10:10 | INFO     | src.database.db_manager:delete_task:144 - Deleted task ID: 1
+2026-02-17 14:10:21 | INFO     | src.database.db_manager:create_task:95 - Created task: teste1 (ID: 1)
+2026-02-17 14:10:24 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:10:26 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:28 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:28 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:10:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:10:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:10:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:10:38 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 9 actions recorded
+2026-02-17 14:12:00 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:12:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:06 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:06 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:07 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:09 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:09 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 7 actions recorded
+2026-02-17 14:12:27 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:12:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:31 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:31 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:12:33 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:12:44 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 9 actions recorded
+2026-02-17 14:13:02 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:13:03 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 0 actions recorded
+2026-02-17 14:13:28 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:13:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:30 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:30 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:31 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:33 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:13:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:13:35 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:13:36 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:13:36 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:14:34 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:14:34 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:14:35 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 14:14:35 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:14:35 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:14:39 | INFO     | src.database.db_manager:delete_task:144 - Deleted task ID: 1
+2026-02-17 14:14:50 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:14:53 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:14:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:15:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:15:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:15:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:15:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:15:21 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 6 actions recorded
+2026-02-17 14:15:22 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:15:22 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:22:25 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:22:25 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:22:26 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 14:22:26 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:22:26 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:22:50 | INFO     | src.core.recorder:start_recording:90 - Recording started - Press ESC to stop
+2026-02-17 14:22:52 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:22:54 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:22:54 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:22:55 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:22:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:22:57 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: type_text
+2026-02-17 14:22:59 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:00 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:03 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:17 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:25 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:26 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:28 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:41 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:42 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:23:43 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:23:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:46 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:23:46 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:47 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:49 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:50 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:51 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:23:51 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:55 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:23:57 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:10 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:10 | INFO     | src.database.db_manager:create_task:95 - Created task: teste12 (ID: 1)
+2026-02-17 14:24:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:12 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:13 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:17 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:17 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:24:17 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (1 actions)
+2026-02-17 14:24:17 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:24:17 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:17 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:24:18 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:24:18 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:24:23 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:24 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:39 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:40 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:24:40 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (1 actions)
+2026-02-17 14:24:41 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:24:41 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:41 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:24:41 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:24:42 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:24:45 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:46 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:46 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:24:46 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (1 actions)
+2026-02-17 14:24:47 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:24:47 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:24:47 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:24:47 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:24:47 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:25:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:07 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:09 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:43 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:53 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:55 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:25:59 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:12 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:20 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:26:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:26:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:26:22 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:23 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:31 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:35 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:37 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:42 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:45 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:46 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:50 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:26:52 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:00 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:12 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:14 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:17 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:19 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:20 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:27:20 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: hotkey
+2026-02-17 14:27:23 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:33 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:35 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:36 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:27:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:39 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:42 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:42 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:27:42 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:27:42 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:27:42 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:42 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:27:43 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:27:44 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (444, 485) with confidence 0.98
+2026-02-17 14:27:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:44 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (444, 485)
+2026-02-17 14:27:45 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:27:46 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:27:46 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:27:52 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:55 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:57 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:27:59 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:03 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:05 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:28:05 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:28:05 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:28:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:05 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:28:06 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:28:07 | DEBUG    | src.core.image_recognition:find_image:94 - Image not found. Best confidence: 0.73
+2026-02-17 14:28:07 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+2026-02-17 14:28:07 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:28:07 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=False)
+2026-02-17 14:28:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:16 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:18 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:18 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:28:18 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:28:18 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:28:19 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:19 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:28:19 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:28:20 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (718, 486) with confidence 0.96
+2026-02-17 14:28:21 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:21 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (718, 486)
+2026-02-17 14:28:21 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:28:22 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:28:22 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:28:39 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:28:51 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:26 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:27 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:29:54 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:03 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:07 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:08 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:13 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:13 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:22 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:38 | DEBUG    | src.core.recorder:_on_click:167 - Converted to double click
+2026-02-17 14:30:41 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:42 | DEBUG    | src.core.recorder:_on_click:167 - Converted to double click
+2026-02-17 14:30:43 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:30:47 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:01 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:04 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:06 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:09 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:10 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:13 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:18 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:23 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:31:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:31:40 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:31:42 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:43 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:31:43 | INFO     | src.core.scheduler:_add_job:108 - Added scheduled job: teste12 (next run: 2026-02-17 14:32:00-03:00)
+2026-02-17 14:31:49 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:32:00 | INFO     | src.core.scheduler:_execute_scheduled_task:166 - Executing scheduled task: teste12
+2026-02-17 14:32:00 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:32:00 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:32:00 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:32:00 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:32:00 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:32:00 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:32:02 | DEBUG    | src.core.image_recognition:find_image:94 - Image not found. Best confidence: 0.73
+2026-02-17 14:32:02 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+2026-02-17 14:32:02 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:32:02 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=False)
+2026-02-17 14:32:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:32:15 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:32:24 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:32:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:33:51 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:33:52 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:33:55 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:33:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:33:59 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:07 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:10 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:10 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:34:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:12 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:14 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:14 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to fast (multiplier: 0.5)
+2026-02-17 14:34:14 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:34:14 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:34:14 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:14 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:34:14 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:34:15 | DEBUG    | src.core.image_recognition:find_image:94 - Image not found. Best confidence: 0.74
+2026-02-17 14:34:15 | ERROR    | src.core.player:_do_image_click:425 - Image not found: D:\Docker\lab\rpa-lab\img\pesquisa.png
+2026-02-17 14:34:15 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:34:15 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=False)
+2026-02-17 14:34:17 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:20 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:22 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:22 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to fast (multiplier: 0.5)
+2026-02-17 14:34:22 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (4 actions)
+2026-02-17 14:34:22 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 0.98
+2026-02-17 14:34:22 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:22 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:34:22 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:34:23 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (718, 486) with confidence 0.96
+2026-02-17 14:34:23 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:23 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (718, 486)
+2026-02-17 14:34:23 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:34:24 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:34:24 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:34:34 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:36 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:39 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:44 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:49 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:53 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:34:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:34:56 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: scroll
+2026-02-17 14:34:57 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:34:58 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:02 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:03 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:05 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:06 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:08 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:09 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:11 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:12 | DEBUG    | src.core.recorder:_on_click:167 - Converted to double click
+2026-02-17 14:35:12 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:14 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:16 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:19 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:29 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:30 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:32 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:35 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:38 | DEBUG    | src.core.recorder:_add_action:133 - Recorded action: click
+2026-02-17 14:35:40 | INFO     | src.core.recorder:stop_recording:108 - Recording stopped - 217 actions recorded
+2026-02-17 14:36:06 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:36:11 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to fast (multiplier: 0.5)
+2026-02-17 14:36:11 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (6 actions)
+2026-02-17 14:36:11 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 1.00
+2026-02-17 14:36:11 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:36:11 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:36:12 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (870, 485) with confidence 1.00
+2026-02-17 14:36:12 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (870, 485)
+2026-02-17 14:36:13 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:36:13 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:36:14 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (1767, 23) with confidence 1.00
+2026-02-17 14:36:14 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (1767, 23)
+2026-02-17 14:36:14 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:36:14 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:36:18 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to fast (multiplier: 0.5)
+2026-02-17 14:36:18 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (6 actions)
+2026-02-17 14:36:18 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 1.00
+2026-02-17 14:36:18 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:36:19 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:36:19 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (870, 485) with confidence 1.00
+2026-02-17 14:36:19 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (870, 485)
+2026-02-17 14:36:20 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:36:20 | DEBUG    | src.core.player:_do_wait:400 - Wait 0.50s (original: 1.0s)
+2026-02-17 14:36:21 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (1767, 23) with confidence 1.00
+2026-02-17 14:36:21 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (1767, 23)
+2026-02-17 14:36:21 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:36:21 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:36:31 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:36:35 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 14:36:35 | INFO     | src.core.player:play_task:110 - Starting task: teste12 (6 actions)
+2026-02-17 14:36:35 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (808, 1057) with confidence 1.00
+2026-02-17 14:36:36 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (808, 1057)
+2026-02-17 14:36:36 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:36:37 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (870, 485) with confidence 0.98
+2026-02-17 14:36:38 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (870, 485)
+2026-02-17 14:36:38 | DEBUG    | src.core.player:_do_type_text:373 - Typed: teste
+2026-02-17 14:36:39 | DEBUG    | src.core.player:_do_wait:400 - Wait 1.00s (original: 1.0s)
+2026-02-17 14:36:40 | DEBUG    | src.core.image_recognition:find_image:91 - Found image at (1767, 23) with confidence 1.00
+2026-02-17 14:36:40 | DEBUG    | src.core.player:_do_image_click:422 - Image click at (1767, 23)
+2026-02-17 14:36:41 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste12 (ID: 1)
+2026-02-17 14:36:41 | INFO     | src.core.player:play_task:189 - Task completed: teste12 (success=True)
+2026-02-17 14:37:34 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:37:34 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 14:38:02 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 14:38:02 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 14:38:02 | INFO     | src.core.scheduler:_add_job:108 - Added scheduled job: teste12 (next run: 2026-02-18 14:32:00-03:00)
+2026-02-17 14:38:02 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 1 scheduled tasks
+2026-02-17 14:38:02 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 14:38:02 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 14:38:41 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 14:38:41 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
