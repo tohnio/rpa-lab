@@ -114,26 +114,6 @@ class MainWindow(ctk.CTkFrame):
             btn.pack(fill="x", pady=2)
             self.nav_buttons[key] = btn
         
-        # Quick actions
-        self.quick_frame = ctk.CTkFrame(self.sidebar)
-        self.quick_frame.pack(fill="x", padx=10, pady=20)
-        
-        self.quick_label = ctk.CTkLabel(
-            self.quick_frame,
-            text="Ações Rápidas",
-            font=ctk.CTkFont(weight="bold")
-        )
-        self.quick_label.pack(pady=5)
-        
-        self.record_btn = ctk.CTkButton(
-            self.quick_frame,
-            text="⏺️ Nova Gravação",
-            command=self._start_quick_recording,
-            fg_color="red",
-            hover_color="darkred"
-        )
-        self.record_btn.pack(fill="x", padx=5, pady=2)
-        
         # Status
         self.status_frame = ctk.CTkFrame(self.sidebar)
         self.status_frame.pack(fill="x", side="bottom", padx=10, pady=10)
@@ -490,7 +470,6 @@ class MainWindow(ctk.CTkFrame):
         if self.is_recording:
             self.recorder.stop_recording()
             self.rec_btn.configure(text="⏺️ Gravar", fg_color="red")
-            self.record_btn.configure(text="⏺️ Nova Gravação", fg_color="red")
             self.is_recording = False
             self.status_label.configure(text=f"Status: Gravação parada - {len(self.current_actions)} ações")
         else:
@@ -499,20 +478,9 @@ class MainWindow(ctk.CTkFrame):
                 self.current_actions = []
             self.recorder.start_recording()
             self.rec_btn.configure(text="⏹️ Parar", fg_color="orange")
-            self.record_btn.configure(text="⏹️ Parar Gravação", fg_color="orange")
             self.is_recording = True
             self.status_label.configure(text="Status: GRAVANDO... Execute ações e pressione ESC para parar")
             self._refresh_actions_list()
-    
-    def _start_quick_recording(self):
-        """Start quick recording (creates new task)."""
-        if not self.is_recording:
-            self._show_record_panel()
-            self.task_name_entry.delete(0, "end")
-            self.task_name_entry.insert(0, f"Nova Tarefa {datetime.now().strftime('%Y%m%d_%H%M')}")
-            self.current_task = None
-            self.current_actions = []
-            self._toggle_recording()
     
     def _on_action_recorded(self, action: Action):
         """Callback when an action is recorded."""
@@ -523,7 +491,6 @@ class MainWindow(ctk.CTkFrame):
         """Callback when recording stops."""
         self.is_recording = False
         self.rec_btn.configure(text="⏺️ Gravar", fg_color="red")
-        self.record_btn.configure(text="⏺️ Nova Gravação", fg_color="red")
     
     def _refresh_actions_list(self):
         """Refresh the actions list display."""

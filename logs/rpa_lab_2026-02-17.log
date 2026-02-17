@@ -702,3 +702,45 @@
 2026-02-17 16:06:42 | DEBUG    | src.core.player:_do_hotkey:383 - Hotkey: esc
 2026-02-17 16:06:42 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste (ID: 1)
 2026-02-17 16:06:42 | INFO     | src.core.player:play_task:189 - Task completed: teste (success=True)
+2026-02-17 16:30:35 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 16:30:35 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 16:30:36 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 16:30:36 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 16:30:36 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 16:30:48 | INFO     | src.database.db_manager:create_task:95 - Created task: teste xx (ID: 4)
+2026-02-17 16:30:57 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:01 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 16:31:01 | INFO     | src.core.player:play_task:110 - Starting task: teste xx (1 actions)
+2026-02-17 16:31:01 | DEBUG    | src.core.player:_do_click:324 - Click at (470, 1058) with left button
+2026-02-17 16:31:02 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:02 | INFO     | src.core.player:play_task:189 - Task completed: teste xx (success=True)
+2026-02-17 16:31:17 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:21 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 16:31:21 | INFO     | src.core.player:play_task:110 - Starting task: teste xx (2 actions)
+2026-02-17 16:31:21 | DEBUG    | src.core.player:_do_click:324 - Click at (470, 1058) with left button
+2026-02-17 16:31:22 | DEBUG    | src.core.player:_do_hotkey:383 - Hotkey: esq
+2026-02-17 16:31:22 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:22 | INFO     | src.core.player:play_task:189 - Task completed: teste xx (success=True)
+2026-02-17 16:31:41 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:45 | INFO     | src.core.speed_controller:set_speed:94 - Speed set to normal (multiplier: 1.0)
+2026-02-17 16:31:45 | INFO     | src.core.player:play_task:110 - Starting task: teste xx (2 actions)
+2026-02-17 16:31:45 | DEBUG    | src.core.player:_do_click:324 - Click at (470, 1058) with left button
+2026-02-17 16:31:45 | DEBUG    | src.core.player:_do_hotkey:383 - Hotkey: esc
+2026-02-17 16:31:46 | INFO     | src.database.db_manager:update_task:135 - Updated task: teste xx (ID: 4)
+2026-02-17 16:31:46 | INFO     | src.core.player:play_task:189 - Task completed: teste xx (success=True)
+2026-02-17 16:32:00 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 16:32:00 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 16:33:15 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 16:33:15 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 16:33:15 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 16:33:15 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 16:33:15 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 16:33:25 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 16:33:25 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
+2026-02-17 16:33:35 | INFO     | src.utils.logger:setup_logger:50 - Logger initialized successfully
+2026-02-17 16:33:35 | INFO     | __main__:main:22 - Starting RPA Lab...
+2026-02-17 16:33:35 | INFO     | src.core.scheduler:_load_schedules:70 - Loaded 0 scheduled tasks
+2026-02-17 16:33:35 | INFO     | src.core.scheduler:start:52 - Scheduler started
+2026-02-17 16:33:35 | INFO     | src.gui.app:__init__:52 - RPA Lab v1.0.0 initialized
+2026-02-17 16:33:42 | INFO     | src.gui.app:on_closing:60 - Application closing
+2026-02-17 16:33:42 | INFO     | src.core.scheduler:stop:61 - Scheduler stopped
