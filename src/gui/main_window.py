@@ -96,7 +96,6 @@ class MainWindow(ctk.CTkFrame):
         self.nav_buttons = {}
         nav_items = [
             ("tasks", "📋 Tarefas", self._show_tasks_panel),
-            ("record", "⏺️ Gravar", self._show_record_panel),
             ("schedule", "📅 Agendamentos", self._show_schedule_panel),
             ("history", "📊 Histórico", self._show_history_panel),
             ("settings", "⚙️ Configurações", self._show_settings_panel),
@@ -919,7 +918,7 @@ class TaskDialog(ctk.CTkToplevel):
         self.task = task
         
         self.title(title)
-        self.geometry("400x200")
+        self.geometry("400x250")
         self.transient(parent)
         self.grab_set()
         
@@ -1105,13 +1104,40 @@ class ActionDialog(ctk.CTkToplevel):
     def _create_fields(self):
         """Create fields based on action type."""
         if self.action_type == ActionType.CLICK:
-            ctk.CTkLabel(self.content, text="Posição X:").pack(anchor="w")
-            self.x_entry = ctk.CTkEntry(self.content)
-            self.x_entry.pack(fill="x", pady=5)
+            # Frame for X coordinate
+            x_frame = ctk.CTkFrame(self.content, fg_color="transparent")
+            x_frame.pack(fill="x", pady=5)
             
-            ctk.CTkLabel(self.content, text="Posição Y:").pack(anchor="w")
-            self.y_entry = ctk.CTkEntry(self.content)
-            self.y_entry.pack(fill="x", pady=5)
+            ctk.CTkLabel(x_frame, text="Posição X:").pack(side="left")
+            self.x_entry = ctk.CTkEntry(x_frame, width=100)
+            self.x_entry.pack(side="left", padx=5)
+            
+            # Frame for Y coordinate  
+            y_frame = ctk.CTkFrame(self.content, fg_color="transparent")
+            y_frame.pack(fill="x", pady=5)
+            
+            ctk.CTkLabel(y_frame, text="Posição Y:").pack(side="left")
+            self.y_entry = ctk.CTkEntry(y_frame, width=100)
+            self.y_entry.pack(side="left", padx=5)
+            
+            # Capture button
+            capture_frame = ctk.CTkFrame(self.content, fg_color="transparent")
+            capture_frame.pack(fill="x", pady=10)
+            
+            self.capture_btn = ctk.CTkButton(
+                capture_frame,
+                text="🎯 Capturar Posição (3s)",
+                command=self._capture_mouse_position
+            )
+            self.capture_btn.pack(pady=5)
+            
+            # Status label for countdown
+            self.countdown_label = ctk.CTkLabel(
+                capture_frame,
+                text="",
+                font=ctk.CTkFont(size=14, weight="bold")
+            )
+            self.countdown_label.pack(pady=5)
         
         elif self.action_type == ActionType.TYPE_TEXT:
             ctk.CTkLabel(self.content, text="Texto:").pack(anchor="w")
@@ -1167,6 +1193,44 @@ class ActionDialog(ctk.CTkToplevel):
         if file_path:
             self.image_entry.delete(0, "end")
             self.image_entry.insert(0, file_path)
+    
+    def _capture_mouse_position(self):
+        """Capture mouse position after countdown."""
+        import pyautogui
+        import threading
+        import time
+        
+        def countdown_and_capture():
+            # Disable button during countdown
+            self.capture_btn.configure(state="disabled")
+            
+            # Countdown: 3, 2, 1
+            for i in range(3, 0, -1):
+                self.countdown_label.configure(text=f"Mova o mouse para a posição... {i}")
+                self.update()
+                time.sleep(1)
+            
+            # Get mouse position directly
+            x, y = pyautogui.position()
+            
+            # Update entries (must be done in main thread)
+            self.after(0, lambda: self._update_captured_position(x, y))
+        
+        # Run in separate thread to not block UI
+        thread = threading.Thread(target=countdown_and_capture)
+        thread.daemon = True
+        thread.start()
+    
+    def _update_captured_position(self, x: int, y: int):
+        """Update the position entries after capture."""
+        self.x_entry.delete(0, "end")
+        self.x_entry.insert(0, str(x))
+        self.y_entry.delete(0, "end")
+        self.y_entry.insert(0, str(y))
+        
+        # Update status
+        self.countdown_label.configure(text=f"✓ Capturado: ({x}, {y})")
+        self.capture_btn.configure(state="normal")
     
     def _save(self):
         """Save the action."""
