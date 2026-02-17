@@ -14,18 +14,20 @@ def setup_logger() -> None:
     """Configure loguru logger with file and console handlers."""
     # Remove default handler
     logger.remove()
-    
+
     # Ensure log directory exists
     log_path = config.log_path
     log_path.mkdir(parents=True, exist_ok=True)
-    
-    # Console handler with color
-    logger.add(
-        sys.stdout,
-        format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>",
-        level=config.get('logging.level', 'INFO'),
-        colorize=True
-    )
+
+    # Console handler — só adiciona se sys.stdout estiver disponível
+    # (quando rodando como .exe sem console, sys.stdout é None)
+    if sys.stdout is not None:
+        logger.add(
+            sys.stdout,
+            format="<green>{time:YYYY-MM-DD HH:mm:ss}</green> | <level>{level: <8}</level> | <cyan>{name}</cyan>:<cyan>{function}</cyan>:<cyan>{line}</cyan> - <level>{message}</level>",
+            level=config.get('logging.level', 'INFO'),
+            colorize=True
+        )
     
     # File handler for all logs
     logger.add(

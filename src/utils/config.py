@@ -3,9 +3,22 @@ Configuration manager for RPA Lab.
 Loads and manages application settings from YAML file.
 """
 import os
+import sys
 import yaml
 from pathlib import Path
 from typing import Any, Dict, Optional
+
+
+def _get_base_dir() -> Path:
+    """
+    Returns the base directory of the application.
+    - When running as a frozen .exe (PyInstaller), returns the directory
+      where the .exe resides.
+    - When running as a Python script, returns the project root.
+    """
+    if getattr(sys, 'frozen', False):
+        return Path(sys.executable).parent
+    return Path(__file__).parent.parent.parent
 
 
 class Config:
@@ -26,13 +39,17 @@ class Config:
     def load_config(self, config_path: Optional[str] = None) -> None:
         """Load configuration from YAML file."""
         if config_path is None:
-            # Default config path
-            base_dir = Path(__file__).parent.parent.parent
-            config_path = base_dir / "config.yaml"
-        
-        config_path = Path(config_path)
-        
-        if config_path.exists():
+            if getattr(sys, 'frozen', False):
+                # Frozen exe: look next to the .exe first, then in the bundle
+                candidates = [
+                    Path(sys.executable).parent / "config.yaml",
+                    Path(getattr(sys, '_MEIPASS', '')) / "config.yaml",
+                ]
+                config_path = next((p for p in candidates if p.exists()), None)
+            else:
+                config_path = Path(__file__).parent.parent.parent / "config.yaml"
+
+        if config_path and Path(config_path).exists():
             with open(config_path, 'r', encoding='utf-8') as f:
                 self._config = yaml.safe_load(f) or {}
         else:
@@ -125,6 +142,10 @@ class Config:
         config[keys[-1]] = value
     
     @property
+    def base_dir(self) -> Path:
+        return _get_base_dir()
+
+    @property
     def app_name(self) -> str:
         return self.get('app.name', 'RPA Lab')
     
@@ -138,21 +159,18 @@ class Config:
     
     @property
     def database_path(self) -> Path:
-        base_dir = Path(__file__).parent.parent.parent
         db_path = self.get('database.path', 'data/rpa.db')
-        return base_dir / db_path
-    
+        return _get_base_dir() / db_path
+
     @property
     def screenshot_path(self) -> Path:
-        base_dir = Path(__file__).parent.parent.parent
         path = self.get('recording.screenshot_path', 'data/screenshots')
-        return base_dir / path
-    
+        return _get_base_dir() / path
+
     @property
     def log_path(self) -> Path:
-        base_dir = Path(__file__).parent.parent.parent
         path = self.get('logging.path', 'logs')
-        return base_dir / path
+        return _get_base_dir() / path
     
     @property
     def speeds(self) -> Dict[str, float]:
