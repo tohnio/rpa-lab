@@ -3,7 +3,7 @@ Main window for RPA Lab GUI.
 Contains the main layout with sidebar and content panels.
 """
 import customtkinter as ctk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from typing import Callable, Dict, List, Optional
 from datetime import datetime
 from loguru import logger
@@ -543,8 +543,9 @@ class MainWindow(ctk.CTkFrame):
         # Index
         ctk.CTkLabel(row, text=str(index + 1), width=50).pack(side="left", padx=5)
         
-        # Type
-        type_text = action.action_type.value.replace("_", " ").title()
+        # Type - handle both string and enum
+        action_type_value = action.action_type.value if hasattr(action.action_type, 'value') else str(action.action_type)
+        type_text = action_type_value.replace("_", " ").title()
         ctk.CTkLabel(row, text=type_text, width=150).pack(side="left", padx=5)
         
         # Details
@@ -567,18 +568,21 @@ class MainWindow(ctk.CTkFrame):
     
     def _get_action_details(self, action: Action) -> str:
         """Get details string for an action."""
-        if action.action_type in [ActionType.CLICK, ActionType.DOUBLE_CLICK, ActionType.RIGHT_CLICK]:
+        # Handle both string and enum action_type
+        action_type_str = action.action_type.value if hasattr(action.action_type, 'value') else str(action.action_type)
+        
+        if action_type_str in ["click", "double_click", "right_click"]:
             return f"({action.x}, {action.y})"
-        elif action.action_type == ActionType.TYPE_TEXT:
+        elif action_type_str == "type_text":
             text = action.text or ""
             return f'"{text[:30]}{"..." if len(text) > 30 else ""}"'
-        elif action.action_type == ActionType.HOTKEY:
+        elif action_type_str == "hotkey":
             return "+".join(action.keys)
-        elif action.action_type == ActionType.WAIT:
+        elif action_type_str == "wait":
             return f"{action.duration}s"
-        elif action.action_type == ActionType.IMAGE_CLICK:
+        elif action_type_str == "image_click":
             return action.image_path or "Imagem"
-        elif action.action_type == ActionType.SCROLL:
+        elif action_type_str == "scroll":
             return f"Scroll: {action.scroll_amount}"
         return ""
     
@@ -1128,13 +1132,41 @@ class ActionDialog(ctk.CTkToplevel):
         
         elif self.action_type == ActionType.IMAGE_CLICK:
             ctk.CTkLabel(self.content, text="Caminho da imagem:").pack(anchor="w")
-            self.image_entry = ctk.CTkEntry(self.content)
-            self.image_entry.pack(fill="x", pady=5)
+            
+            # Frame for image path and browse button
+            image_frame = ctk.CTkFrame(self.content, fg_color="transparent")
+            image_frame.pack(fill="x", pady=5)
+            
+            self.image_entry = ctk.CTkEntry(image_frame)
+            self.image_entry.pack(side="left", fill="x", expand=True)
+            
+            browse_btn = ctk.CTkButton(
+                image_frame,
+                text="📁 Localizar",
+                width=80,
+                command=self._browse_image
+            )
+            browse_btn.pack(side="right", padx=(5, 0))
             
             ctk.CTkLabel(self.content, text="Confiança (0.0-1.0):").pack(anchor="w")
             self.confidence_entry = ctk.CTkEntry(self.content)
             self.confidence_entry.insert(0, "0.9")
             self.confidence_entry.pack(fill="x", pady=5)
+    
+    def _browse_image(self):
+        """Open file browser to select an image."""
+        file_path = filedialog.askopenfilename(
+            title="Selecionar Imagem",
+            filetypes=[
+                ("Arquivos de Imagem", "*.png *.jpg *.jpeg *.bmp *.gif"),
+                ("PNG", "*.png"),
+                ("JPEG", "*.jpg *.jpeg"),
+                ("Todos os Arquivos", "*.*")
+            ]
+        )
+        if file_path:
+            self.image_entry.delete(0, "end")
+            self.image_entry.insert(0, file_path)
     
     def _save(self):
         """Save the action."""
