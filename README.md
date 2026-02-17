@@ -4,13 +4,53 @@ Sistema de Automação de Processos Robóticos (RPA) em Python com interface gr�
 
 ## ✨ Funcionalidades
 
-- **📝 Gravação de Tarefas**: Capture ações de mouse e teclado automaticamente
-- **🔄 Reprodução de Tarefas**: Execute tarefas gravadas com variáveis diferentes
-- **📅 Agendamento**: Programe execuções diárias, semanais ou mensais
-- **🖼️ Reconhecimento de Imagem**: Clique em elementos baseado em imagens (OpenCV)
-- **⚡ Controle de Velocidade**: Execute em velocidade normal, rápida, turbo ou instantânea
-- **📊 Variáveis Reutilizáveis**: Use `{{variavel}}` para parametrizar tarefas
-- **📈 Histórico de Execuções**: Acompanhe logs e estatísticas de execução
+### 📝 Gerenciamento de Tarefas
+- **Criação de Tarefas**: Crie tarefas com nome e descrição
+- **Edição de Tarefas**: Edite tarefas existentes adicionando ou removendo ações
+- **Exclusão de Tarefas**: Remova tarefas que não são mais necessárias
+- **Execução de Tarefas**: Execute tarefas com diferentes velocidades
+
+### ⏺️ Gravação de Ações
+- **Gravação Automática**: Capture cliques, digitação e scrolls do mouse
+- **Gravação de Teclas**: Capture atalhos de teclado (hotkeys)
+- **Contagem Regressiva**: Botão para capturar posição do mouse com contagem 3, 2, 1
+- **Parada com ESC**: Interrompa a gravação pressionando ESC
+
+### ➕ Ações Manuais
+- **Click**: Adicione cliques em coordenadas específicas
+  - Campos X e Y para coordenadas
+  - Botão "🎯 Capturar Posição (3s)" com contagem regressiva
+- **Digitar**: Digite textos em campos
+- **Hotkey**: Pressione combinações de teclas (ex: ctrl+c)
+- **Wait**: Aguarde um tempo em segundos
+- **Imagem**: Clique baseado em reconhecimento de imagem
+  - Botão "📁 Localizar" para selecionar imagens
+
+### 🖼️ Reconhecimento de Imagem
+- Encontre e clique em elementos na tela usando imagens
+- Configure o nível de confiança (0.0 a 1.0)
+- Screenshots salvos automaticamente em `data/screenshots/`
+
+### ⚡ Controle de Velocidade
+
+| Modo | Multiplicador | Descrição |
+|------|---------------|-----------|
+| Normal | 1x | Velocidade de gravação |
+| Rápido | 2x | 2x mais rápido |
+| Turbo | 10x | 10x mais rápido |
+| Instantâneo | ∞ | Sem delays |
+
+### 📅 Agendamento
+- **Diário**: Execute todos os dias em um horário específico
+- **Semanal**: Execute em dias específicos da semana (Seg-Dom)
+- **Mensal**: Execute em um dia específico do mês
+- **Intervalo**: Execute em intervalos regulares (minutos)
+
+### 📊 Histórico de Execuções
+- Acompanhe todas as execuções realizadas
+- Visualize status (sucesso/falha)
+- Veja duração e mensagens de erro
+- Logs detalhados para auditoria
 
 ## 📋 Requisitos
 
@@ -22,7 +62,7 @@ Sistema de Automação de Processos Robóticos (RPA) em Python com interface gr�
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/rpa-lab.git
+git clone https://github.com/tohnio/rpa-lab.git
 cd rpa-lab
 ```
 
@@ -47,14 +87,28 @@ python main.py
 
 ## 📖 Guia de Uso
 
-### Gravando uma Nova Tarefa
+### Criando uma Nova Tarefa
 
-1. Clique em "⏺️ Nova Gravação" no painel lateral
-2. Digite um nome para a tarefa
-3. Clique em "⏺️ Gravar" para iniciar a gravação
-4. Execute as ações desejadas (cliques, digitação, etc.)
-5. Pressione **ESC** ou clique em "⏹️ Parar" para finalizar
-6. Clique em "💾 Salvar" para salvar a tarefa
+1. Vá para o painel "📋 Tarefas"
+2. Clique em "+ Nova Tarefa"
+3. Digite um nome e descrição para a tarefa
+4. Clique em "Salvar"
+
+### Gravando Ações
+
+1. Com a tarefa aberta, clique em "⏺️ Gravar"
+2. Execute as ações desejadas (cliques, digitação, etc.)
+3. Pressione **ESC** ou clique em "⏹️ Parar" para finalizar
+4. Clique em "💾 Salvar" para salvar a tarefa
+
+### Adicionando Ações Manuais
+
+1. Na área de edição da tarefa, clique em um dos botões:
+   - **Click**: Informe X, Y ou use "🎯 Capturar Posição (3s)"
+   - **Digitar**: Digite o texto desejado
+   - **Hotkey**: Informe as teclas (ex: ctrl,c)
+   - **Wait**: Informe o tempo em segundos
+   - **Imagem**: Use "📁 Localizar" para selecionar uma imagem
 
 ### Executando uma Tarefa
 
@@ -65,117 +119,14 @@ python main.py
 ### Agendando uma Tarefa
 
 1. No painel de tarefas, clique em "📅 Agendar"
-2. Selecione o tipo de agendamento:
-   - **Diário**: Executa todos os dias no horário especificado
-   - **Semanal**: Executa em dias específicos da semana
-   - **Mensal**: Executa em um dia específico do mês
+2. Selecione o tipo de agendamento
 3. Defina o horário (formato HH:MM)
 4. Clique em "Salvar"
-
-### Usando Variáveis
-
-1. Use a sintaxe `{{nome_variavel}}` em campos de texto
-2. Ao executar, informe os valores das variáveis
-3. Exemplo: Digite `{{usuario}}` em um campo de login
-
-### Adicionando Ações Manuais
-
-Além da gravação automática, você pode adicionar ações manualmente:
-
-- **Click**: Clique em uma coordenada específica
-- **Digitar**: Digite um texto
-- **Hotkey**: Pressione uma combinação de teclas (ex: ctrl+c)
-- **Wait**: Aguarde um tempo em segundos
-- **Imagem**: Clique baseado em reconhecimento de imagem
-
-### Reconhecimento de Imagem
-
-Para usar cliques baseados em imagem:
-
-1. Capture uma screenshot da região desejada
-2. Salve como arquivo PNG na pasta `data/screenshots/`
-3. Adicione uma ação do tipo "Imagem"
-4. Informe o caminho do arquivo e a confiança (0.0-1.0)
-
-## 🎯 Controle de Velocidade
-
-| Modo | Multiplicador | Descrição |
-|------|---------------|-----------|
-| Normal | 1x | Velocidade de gravação |
-| Rápido | 2x | 2x mais rápido |
-| Turbo | 10x | 10x mais rápido |
-| Instantâneo | ∞ | Sem delays |
-
-## 📁 Estrutura do Projeto
-
-```
-rpa-lab/
-├── src/
-│   ├── core/              # Núcleo de automação
-│   │   ├── recorder.py    # Gravador de ações
-│   │   ├── player.py      # Executor de ações
-│   │   ├── image_recognition.py  # OpenCV matching
-│   │   ├── speed_controller.py   # Controle de velocidade
-│   │   └── scheduler.py   # Agendamento
-│   │
-│   ├── database/          # Camada de dados
-│   │   ├── models.py      # Modelos SQLAlchemy
-│   │   └── db_manager.py  # Gerenciador de banco
-│   │
-│   ├── models/            # Modelos Pydantic
-│   │   ├── task.py        # Modelo de tarefa
-│   │   ├── action.py      # Modelo de ação
-│   │   ├── variable.py    # Modelo de variável
-│   │   ├── schedule.py    # Modelo de agendamento
-│   │   └── execution_log.py  # Log de execução
-│   │
-│   ├── gui/               # Interface gráfica
-│   │   ├── app.py         # Aplicação principal
-│   │   └── main_window.py # Janela principal
-│   │
-│   └── utils/             # Utilitários
-│       ├── config.py      # Gerenciador de configuração
-│       ├── logger.py      # Sistema de logs
-│       └── helpers.py     # Funções auxiliares
-│
-├── data/                  # Dados (criado automaticamente)
-│   ├── rpa.db             # Banco de dados SQLite
-│   └── screenshots/       # Screenshots capturados
-│
-├── logs/                  # Logs (criado automaticamente)
-├── config.yaml            # Configurações
-├── requirements.txt       # Dependências
-└── main.py                # Ponto de entrada
-```
-
-## ⚙️ Configuração
-
-Edite o arquivo `config.yaml` para personalizar:
-
-```yaml
-# Tema da interface (dark ou light)
-app:
-  theme: "dark"
-
-# Configurações de gravação
-recording:
-  default_delay: 0.5
-  capture_screenshots: true
-
-# Configurações de execução
-execution:
-  default_speed: "normal"
-  retry_on_failure: 3
-
-# Reconhecimento de imagem
-image_recognition:
-  default_confidence: 0.9
-```
 
 ## 🛡️ Segurança
 
 - **FAILSAFE**: O sistema pára automaticamente se o mouse for movido para o canto superior esquerdo
-- **ESC**: Pressione ESC para interromper gravações
+- **ESC**: Pressione ESC para interromper gravações ou execuções
 - **Logs**: Todas as execuções são registradas para auditoria
 
 ## 🔧 Tecnologias Utilizadas
@@ -192,18 +143,6 @@ image_recognition:
 ## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## 📧 Contato
-
-Para dúvidas ou sugestões, abra uma issue no repositório.
 
 ---
 
